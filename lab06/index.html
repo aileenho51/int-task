@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Simple Photo Gallery </title>
+<style> 
+	#header{
+		text-align: center;
+		padding:20px;
+	}
+
+	body{
+		margin: 0px;
+		background-color: whitesmoke;
+	}
+
+	.row1{
+		margin-right: auto;
+		margin-left: auto;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 660px;
+		text-align: center;
+		padding-bottom:10px;
+	}
+
+	.row2{
+		margin-right: auto;
+		margin-left: auto;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 660px;
+		text-align: center;
+		padding-bottom:10px;
+	}
+
+	.cover{
+		width: 200px;
+		margin:  10px;
+		height:  auto;
+		opacity:  0.9;
+	}
+
+	.cover + p {
+		text-align: center;
+		visibility: hidden;
+	}
+
+	.cover:hover {
+		opacity: 1;
+	}
+
+	.cover:hover + p {
+		visibility: visible;
+	}
+
+</style>
+</head>
+<body> 
+
+	<div id="header">
+		<h1> Aileen's College Travel Adventures </h1>
+	</div>
+
+	<div class="row1">
+		<div> 
+			<img class="cover" src="img/laniakea.jpg" alt="Laniakea">
+			<p> Laniakea Beach </p>
+		</div>
+		<div>
+			<img class="cover" src="img/diamondhead.jpg" alt="Diamond Head">
+			<p> Diamond Head </p>
+		</div>
+		<div> 
+			<img class="cover" src="img/arrowhead.jpg" alt="Arrowhead Lake">
+			<p> Arrowhead Lake </p>
+		</div>
+	</div>
+
+	<div class="row2"> 
+		<div>
+			<img class="cover" src="img/catalina.JPG" alt="Catalina Island">
+			<p> Catalina Island </p>
+		</div>
+		<div> 
+			<img class="cover" src="img/nyc.jpg" alt="New York City">
+			<p> New York City </p>
+		</div>
+		<div> 
+			<img class="cover" src="img/sfo.jpg" alt="San Francisco">
+			<p> San Francisco </p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

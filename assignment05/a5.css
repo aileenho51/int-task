@@ -1,0 +1,84 @@
+h1{
+font-size:60px;
+color:whitesmoke;
+text-align:right;
+text-shadow: 2px 2px 10px hotpink;
+margin-right:40px;
+margin:0;
+}
+
+h2{
+color:maroon;
+}
+
+#main{
+width:1020px;
+margin-left:auto;
+margin-right:auto;
+background-color: lightgray;
+overflow:hidden;
+}
+
+body{
+background-color:lightpink;
+margin:0;
+}
+
+#navigation{
+        text-align: center; 
+        padding-top:5px; 
+        padding-bottom:5px; 
+        font-size: 25px; 
+        margin: auto; 
+        width:  200px; 
+        float: left;
+        height: 35px; 
+        background-color: lavender;
+    }
+
+#navigation:hover{
+        background-color: whitesmoke;
+    }
+
+#navigationbar{
+background-color:lavender;
+}
+
+#footer{
+background-color:lavender;
+color:black;
+text-align:center;
+font-size:18px;
+padding:10px;
+}
+
+.clearfloat{
+clear:both;
+}
+
+#bars{
+margin: auto;
+width: 401px;
+}
+
+#header {
+        background-image:url("img/legallyblonde.png");
+        height:500px;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center top;
+    }
+
+#gallery{
+    margin-right:  50px;
+    margin-left: 50px;
+    text-align: center;
+    height: 35px;
+    background-color: lavender;
+    margin: auto;
+    width:  200px;
+    float: left;
+    font-size: 25px;
+    padding-top:5px;
+    padding-bottom:5px;
+}

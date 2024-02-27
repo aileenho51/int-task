@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Aileen Ho | Lab 7: Image Puzzle </title>
+	<style>
+		body{
+			background-color: darkolivegreen;
+		}
+		h1{
+			text-align: center;
+			font-size:50px;
+			padding:20px;
+			box-shadow: 10px 10px 15px 0px black;
+			background-color: lightyellow;
+		}
+		#grid{
+			margin-left: auto;
+			margin-right: auto;
+			width: 800px;
+			text-align: center;
+			display:  block;
+			overflow: hidden;
+		}
+		.image{
+			width: 250px;
+			height:  auto;
+			float:left;
+		}
+	
+		#row1column1{
+			position: relative;
+			bottom: 15px;
+			right: 15px;
+			box-shadow: 10px 10px 15px 0px black ;
+		}
+		#row2column3 {
+			position: relative;
+			left: 30px;
+			bottom: 10px;
+			box-shadow: 10px 10px 15px 0px black;
+		}
+		#row3column2{
+			position: relative;
+			top: 10px;
+			right: 15px;
+			box-shadow: 10px 10px 15px 0px black;
+		}
+	</style>
+</head>
+<body>
+	<h1>Sat. in the Woods</h1>
+	<div id="grid"> 
+		<img id="row1column1" class="image" src="images/row1column1.png" alt="row1column1">
+		<img class="image" src="images/row1column2.png" alt="row1column2">
+		<img class="image" src="images/row1column3.png" alt="row1column3">
+
+		<img class="image" src="images/row2column1.png" alt="row2column1">
+		<img class="image" src="images/row2column2.png" alt="row2column2">
+		<img id="row2column3" class="image" src="images/row2column3.png" alt="row2column3">
+
+		<img class="image" src="images/row3column1.png" alt="row3column1">
+		<img id="row3column2" class="image" src="images/row3column2.png" alt="row3column2">
+		<img class="image" src="images/row3column3.png" alt="row3column3">
+	</div>
+</body>
+</html>

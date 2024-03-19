@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Aileen Ho | Two-Column TV Show / Movie Article </title>
+<link rel="stylesheet" href="a5.css">
+<style>
+
+	#header {
+        height:450px;
+        background-image: url("gallery/walk.png")
+    }
+
+    #gallery{
+    	background-color: lightgrey;
+	}
+
+	.gallery1,.gallery2,.gallery3,.gallery4{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 1100px;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.row1 {
+		width: auto;
+		margin:	5px;
+		height: 193.5px;
+		padding-top: 8px;
+	}
+
+	.row2{
+		width: auto;
+		margin:5px;
+		height: 353.5px;
+	}
+
+	.row3{
+		width: 1010px;
+		margin:	5px;
+		height: auto;
+	} 
+
+	.row4{
+		width: auto;
+		margin:	5px;
+		height: 172.25px;
+	}
+
+	.caption{
+		visibility: hidden;
+		color: hotpink;
+		text-shadow: 0px 0px 10px;
+		text-align: center;
+		font-size: 1em;
+		position: absolute;
+	}
+
+	.row1images, .row2images, .row3images, .row4images{
+		position:relative;
+	}
+
+	.row1images:hover > img{
+		opacity: 0.4;
+	}
+
+	.row1images:hover p{
+		visibility: visible;
+		position:  absolute;
+		top: 80px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.row2images:hover > img{
+		opacity: 0.4;
+	}
+
+	.row2images:hover p{
+		visibility: visible;
+		position:  absolute;
+		top: 155px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.row3images:hover > img{
+		opacity: 0.4;
+	}
+
+	.row3images:hover p{
+		visibility: visible;
+		position:  absolute;
+		top: 200px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.row4images:hover > img{
+		opacity: 0.4;
+	}
+
+	.row4images:hover p{
+		visibility: visible;
+		position:  absolute;
+		top: 65px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+
+</style>
+</head>
+<body>
+
+	<div id="header"> 
+	    <h1> Gallery</h1>
+	</div>
+
+	<div id="navigationbar">
+    <div id="bars">
+        <div id="navigation">
+            <ul>
+                <li>
+                    <a href="index.html" >
+                    <strong> Home </strong>
+                    </a>
+                    <ul>
+                        <li> 
+                        <a href="index.html#about">About</a>
+                        </li>
+                        <li> 
+                            <a href="index.html#plot">Plot</a>
+                        </li>
+                        <li> 
+                            <a href="index.html#legacy">
+                            Legacy</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="gallery">
+            <a href="gallery.html"> 
+                <strong> Gallery </strong>
+            </a>
+        </div>
+        <div class="clearfloat"></div>
+</div>
+</div>
+
+	<div id="main">
+		<div class="gallery1">
+			<div class="row1images"> 
+				<img class="row1" src="gallery/bench.jpg" alt="Elle and Emmett"> 
+				<p class="caption">
+				<b>Elle and Emmett</b>
+				</p>
+			</div>
+			<div class="row1images">
+				<img class="row1" src="gallery/breakup.png" alt="Elle Break Up Scene">
+				<p class="caption">
+				<b>Elle Break Up Scene</b>
+				</p>
+			</div>
+			<div class="row1images"> 
+				<img class="row1" src="gallery/vivian.png" alt="Elle and Vivian">
+				<p class="caption">
+				<b>Elle and Vivian</b>
+				</p>
+			</div>
+		</div>
+
+		<div class="gallery2">
+			<div class="row2images"> 
+				<img class="row2" src="gallery/casual.png" alt="Behind the Scenes">
+				<p class="caption">
+				<b>Behind the Scenes</b>
+				</p>
+			</div>
+			<div class="row2images"> 
+				<img class="row2" src="gallery/girls.jpg" alt="Elle Teaches Bend and Snap"> 
+				<p class="caption">
+				<b>Elle Teaches Bend and Snap</b>
+				</p>
+			</div>
+		</div>
+
+		<div class="gallery3">
+			<div class="row3images"> 
+				<img class="row3" src="gallery/dinner.png" alt="Elle Goes to Dinner">
+				<p class="caption">
+				<b>Elle Goes to Dinner</b>
+				</p>
+			</div> 
+		</div>
+
+		<div class="gallery4">
+			<div class="row4images">
+			 	<img class="row4" src="gallery/emmett.jpeg" alt="Elle and Emmett in Court"> 
+			 	<p class="caption">
+				<b>Elle and Emmett in Court</b>
+				</p>
+			 </div>
+			<div class="row4images"> 
+				<img class="row4" src="gallery/dance.png" alt="Elle's Sorority Sisters">
+				<p class="caption">
+				<b>Elle's Sorority Sisters</b>
+				</p>
+			</div>
+			<div class="row4images"> 
+				<img class="row4" src="gallery/lawn.jpg" alt="Elle on the Lawn">
+				<p class="caption">
+				<b>Elle on the Lawn</b>
+				</p>
+			</div>
+			<div class="row4images">
+				<img class="row4" src="gallery/lsat.png" alt="Elle Studying for LSATs">
+				<p class="caption">
+				<b>Elle Studying for LSATs</b>
+				</p>
+			</div>
+			<div class="row4images">
+				<img class="row4" src="gallery/treadmill.jpeg" alt="Elle Studying on Treadmill">
+				<p class="caption">
+				<b>Elle Studying on Treadmill</b>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+    	Watch on <a href="https://play.max.com/movie/b87ee494-873c-4e3d-8d9b-879048e78800" target="_blank">HBO MAX</a>.
+	</div>
+</body>
+</html>

@@ -42,15 +42,11 @@
     }
 
     .castinfo + .character{
-        display:  none;
+        visibility: hidden;
     }
 
     .castinfo:hover + .character{
-        display: block;
-    }
-
-    .character{
-        font-style:italic;
+        visibility: visible;
     }
 
     #cast{
@@ -137,13 +133,13 @@
     <div id="newcontent">
         <h2 id="cast">Cast</h2>
         <img src="images/reese.jpeg" alt="Reese Witherspoon" class="castinfo">
-        <p class="character">Reese Witherspoon<br>Elle Woods</p>
+        <p class="character">Reese Witherspoon<br><em>Elle Woods</em></p>
         <img src="images/jenn.jpeg" alt="Jennifer Coolidge" class="castinfo">
-        <p class="character">Jennifer Coolidge<br>Paulette Bonafonte</p>
+        <p class="character">Jennifer Coolidge<br><em>Paulette Bonafonte</em></p>
         <img src="images/luke.jpeg" alt="Luke Wilson" class="castinfo">
-        <p class="character">Luke Wilson<br>Emmett Richmond</p>
+        <p class="character">Luke Wilson<br><em>Emmett Richmond</em></p>
         <img src="images/ali.jpeg" alt="Ali Larter" class="castinfo">
-        <p class="character">Ali Larter<br>Brooke Taylor-Windham</p>
+        <p class="character">Ali Larter<br><em>Brooke Taylor-Windham</em></p>
         <div class="clearfloat"></div>
     </div>
 </div>

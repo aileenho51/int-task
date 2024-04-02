@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Aileen Ho | Lab 10: CSS Effects  </title>
+<meta charset="UTF-8">
+<style>
+h1{
+	margin-top: 20px;
+	font-size: 100px;
+	text-align: center;
+	margin-bottom: 5px;
+	color: lavender;
+}
+
+body{
+	margin:  0px;
+	background: url(large-204.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#cat{
+	top: 280px;
+	position: relative;
+	display: inline-block;
+	animation: walking 20s infinite;
+	transition:  all 2s linear 0s;
+	-webkit-transition: all 20s linear 0s;
+}
+
+#cat img {
+    width: 200%;
+    height: auto;
+}
+
+.bubbletop{
+	background-color: lightpink;
+	text-align: center;
+	margin:  35px;
+	position: absolute;
+	padding: 30px 20px;
+	font-size: 25px;
+	width:  250px;
+	border-radius: 20px;
+	bottom: 90%;
+	border:  3px solid black;
+}
+
+.bubblemiddle{
+	background-color: lightblue;
+	position:  absolute;
+	height: 30px;
+	width:  30px;
+	margin:  10px;
+	border-radius:  50%;
+	bottom:  80%;
+	border: 3px solid black;
+	left: 250px;
+}
+
+.bubblebottom{
+	background-color: lavender;
+	position:  absolute;
+	height: 20px;
+	width:  20px;
+	border-radius:  50%;
+	bottom:  70%;
+	border: 3px solid black;
+	left: 250px;
+}
+
+@keyframes walking {
+    0% {
+        transform: rotate(0deg);
+        left: 0%;
+    }
+    100% {
+        transform: rotate(0deg);
+        left: 75%;
+    }
+}
+
+</style>
+<body>
+<h1> Nyan Cat: Lost in Space </h1>
+<div id="cat">
+	<p class="bubbletop"> Godspeeeeeeeeeed </p>
+	<div class="bubblemiddle"> </div>
+	<div class="bubblebottom"> </div>
+	<img src="cat-nyan-cat.gif" alt="Nyan Rainbow Cat">
+</div>
+</body>
+</html>

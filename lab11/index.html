@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Aileen Ho | Using Lightbox </title>
+<link href="lightbox/css/lightbox.css" rel="stylesheet">
+<style> 
+	#header{
+		text-align: center;
+		padding:20px;
+	}
+
+	body{
+		margin: 0px;
+		background-color: whitesmoke;
+	}
+
+	.row1, .row2{
+		margin-right: auto;
+		margin-left: auto;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 660px;
+		text-align: center;
+		padding-bottom:10px;
+	}
+
+	.cover{
+		width: 200px;
+		margin:  10px;
+		height:  auto;
+		opacity:  0.9;
+	}
+
+	.cover + p {
+		text-align: center;
+		visibility: hidden;
+	}
+
+	.cover:hover {
+		opacity: 1;
+	}
+
+	.cover:hover + p {
+		visibility: visible;
+	}
+
+	.thumbnail-container {text-align:center;}
+		.thumbnails {
+			margin:0 1%;
+			width:180px;
+			height:180px;
+			display:inline-block;
+			overflow:hidden;
+		}
+		.thumbnails img{
+			height:100%;
+			width:auto;
+		}
+
+</style>
+</head>
+<body> 
+
+	<div id="header">
+		<h1> Aileen's College Travel Adventures </h1>
+	</div>
+
+	<div class="thumbnail-container">
+	<div class="row1">
+		<div class="thumbnails"> 
+			<a class="cover" href="../lab06/img/laniakea.jpg" data-lightbox="picture" data-title="Laniakea"><img src="../lab06/img/laniakea.jpg" alt="Laniakea Beach"></a>
+		</div>
+		<div class="thumbnails">
+			<a class="cover" href="../lab06/img/diamondhead.jpg" data-lightbox="picture" data-title="Diamond Head"><img src="../lab06/img/diamondhead.jpg" alt="Diamond Head Trail"></a>
+		</div>
+		<div class="thumbnails"> 
+			<a class="cover" href="../lab06/img/arrowhead.jpg" data-lightbox="picture" data-title="Arrowhead Lake"><img src="../lab06/img/arrowhead.jpg" alt="Arrowhead Lake"></a>
+		</div>
+	</div>
+
+	<div class="row2"> 
+		<div class="thumbnails">
+			<a class="cover" href="../lab06/img/catalina.jpg" data-lightbox="picture" data-title="Catalina Island"><img src="../lab06/img/catalina.jpg" alt="Catalina Island"></a>
+		</div>
+		<div class="thumbnails"> 
+			<a class="cover" href="../lab06/img/nyc.jpg" data-lightbox="picture" data-title="New York City"><img src="../lab06/img/nyc.jpg" alt="New York City"></a>
+		</div>
+		<div class="thumbnails"> 
+			<a class="cover" href="../lab06/img/sfo.jpg" data-lightbox="picture" data-title="San Francisco"><img src="../lab06/img/sfo.jpg" alt="San Francisco"></a>
+		</div>
+	</div>
+	</div>
+<script src="lightbox/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>

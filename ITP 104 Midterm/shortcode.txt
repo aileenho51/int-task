@@ -1,0 +1,48 @@
+<!-- Question #1 -->
+<a href="http://www.usc.edu" target="_blank">USC</a>
+
+<!-- Question #2 -->
+<label class="main-label">Plans for Spring Break (select all)</label>
+	<label for="rest"><input type="checkbox" id="rest" name="rest" value="rest">Rest</label>
+	<label for="travel"><input type="checkbox" id="travel" name="travel" value="travel">Travel</label>
+
+<!-- Question #3 -->
+<h1>The Best Spring Break Destinations</h1>
+<ul>
+<li>Bahamas</li>
+<li>Florida</li>
+<li>Cancun</li>
+</ul>
+
+<!-- Question #4 -->
+@media(max-width: 700px){
+  img {
+    visibility: hidden;
+  }
+}
+
+<!-- Question #5 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+</head>
+<body>
+</body>
+</html>
+
+<!-- Question #6 -->
+.sunshine.hover{
+	background-color:yellow;
+}
+
+<!-- Question #7 -->
+.overlay{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+<!-- Question #8 -->
+@font-face {
+    font-family: 'Spring Break';
+    src: url('fonts/springbreak.woff') format('woff');
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aileen Ho - Practical Midterm</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Museo';
+            src: url('fonts/museo.woff2') format('woff2');
+            font-weight: 700;
+        }
+
+        body{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 19px;
+            line-height: 1;
+            margin: 0 auto;
+        }
+
+        body, h1, h2, h3, h4 {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h1, h2, h3 {
+            color: white;
+            font-family: 'Museo', Arial, sans-serif;
+            margin:0;
+        }
+
+        h1 {
+            font-size: 55px;
+            line-height: 70px;
+        }
+
+        h2 {
+            font-size: 48px;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 22px;
+            color: gray;
+            line-height: 32px;
+        }
+
+        a {
+            color: black;
+        }
+
+        #highlight, #cards, .testimonial{
+            max-width: 1040px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        #nav {
+            position: fixed;
+            width: 100%;
+            height: 60px;
+            padding: 20px 0px;
+            background-color: white;
+            top: 0;
+            left: 0;
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+            z-index: 99;
+            text-align: center;
+        }
+
+        #nav img {
+            width: 180px;
+            height: auto;
+            float:left;
+            padding-left:30px;
+        }
+
+        #hero {
+            height: 600px;
+            background-image: url("images/hero_desktop.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; 
+            color: white;
+            text-align: center;
+            position: relative;
+            margin-top: 60px;
+        }
+
+        #hero-content {
+		    position: absolute;
+		    width: 600px;
+		    top: 100px;
+		    left: 50%;
+		    margin-left: -300px;
+		    text-align:left;
+		}
+
+        #alert {
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 19px;
+            line-height: 1.5;
+            background-color: #5F8D2B;
+        }
+
+        #highlight {
+            background-image: url('images/Camellia-Collection.jpg');
+            background-size: cover;
+            height: 650px;
+            color: white;
+            padding: 50px 0px;
+        }
+
+        #highlight h2{
+        	margin-left:20px;
+        }
+
+        #highlight h3{
+        	margin-left:20px;
+        }
+
+        .button {
+            background: rgba(255,255,255,0.7);
+            width: 350px;
+            text-align: center;
+            padding: 10px 20px;
+            margin: 480px 0px 0px 20px;
+            display: block;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #fff;
+        }
+
+        #cards {
+            color: #2C523B;
+    		line-height: 16px;
+            margin: 5px auto;
+            text-align:center;
+        }
+
+        #cards h2 {
+            color: #5D8A2A;
+            font-size: 30px;
+            display: inline-block;
+        }
+
+        #cards span {
+            display: inline-block;
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+
+        #cards a {
+            font-size: 22px;
+            font-weight: 400;
+        }
+
+        #cards a:hover {
+            color: #5B862A;
+        }
+
+        .card {
+            display: inline-block;
+            width: 250px;
+            height: 400px;
+            padding: 20px;
+            vertical-align: top;
+            text-align: center;
+            border: 2px solid #5A8728;
+            box-shadow: 0 12px 12px 0 rgba(0,0,0,0.25);
+            margin: 10px
+        }
+
+        .card:hover {
+            background-color: rgba(229,229,229,0.60);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            overflow:hidden;
+        }
+
+        .testimonial {
+            background-color: #FDD43D;
+        }
+
+        .testimonial h2{
+        	font-size:30px;
+        	color: #2F593F;
+        	line-height:1.2;
+        }
+
+        .testimonial p{
+        	text-transform: uppercase;
+        	color: #59595A;
+        	font-size:15px;
+        	padding: 20px 0px;
+        }
+
+        #footer {
+            color: white;
+            background-color: #57585A;
+            padding: 10px 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+	<div id="nav">
+	<a href="https://www.descansogardens.org" target="_blank">
+	<img src="images/logo.png" alt="Descanso Gardens Logo">
+	</a>
+	</div>
+
+	<div id="hero">
+	<div id="hero-content">
+	<h1>We’re a botanical garden, living museum, and urban oasis 20 minutes from downtown Los Angeles</h1>
+	</div>
+	</div>
+
+	<div id="alert">
+	<p>The garden is open today<br>The train is running</p>
+	</div>
+
+	<div id="highlight">
+	<h2>It's camellia season</h2>
+	<h3>Discover Descanso's winter beauties</h3>
+	<a href="#" target="_blank" class="button">Learn more</a>
+	</div>
+
+	<div id="cards">
+	<h2>What's happening?</h2>
+	<a href="https://www.descansogardens.org/events/">See our full calendar</a>
+	<div class="clearfloat"></div>
+	<div class="card">
+	<img src="images/Member-Appreciation-Week.jpg" alt="Member Appreciation Week">
+	<h4>Member Appreciation Week</h4>
+    <p>Monday-Sunday</p>
+    <p>5-7pm</p>
+    <p>March 11-17</p>
+	</div>
+
+	<div class="card">
+	<img src="images/Member-Appreciation-Night.jpg" alt="Member Appreciation Night">
+	<h4>Member Appreciation Night</h4>
+	<p>Friday</p>
+	<p>5-7pm</p>
+	<p>March 15</p>
+	</div>
+
+	<div class="card">
+	<img src="images/Cultivate-Living-Plant-Museum.jpg" alt="Cultivate: A Living Plant Museum">
+	<h4>Cultivate: A Living Plant Museum</h4>
+	<p>Friday</p>
+	<p>4:30-7pm</p>
+	<p>March 22</p>
+	</div>
+	</div>
+
+	<div class="testimonial">
+	<h2>"Descanso has inspired me since I was a child, decades ago. Now it has inspired my son to celebrate and wonder at nature."</h2>
+	<p>Descanso Guest</p>
+	</div>
+
+	<div id="footer">
+	<p>© 2024 Descanso Gardens</p>
+	</div>
+</body>
+</html>

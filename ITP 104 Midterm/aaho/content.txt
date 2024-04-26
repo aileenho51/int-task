@@ -1,0 +1,47 @@
+NAV section	
+	logo.png (img)(links to https://www.descansogardens.org)
+
+HERO section (hero_desktop.jpg)
+	We’re a botanical garden, living museum, and urban oasis 20 minutes from downtown Los Angeles(h1)
+	
+ALERT section
+	The garden is open today<br>The train is running(p)
+	
+HIGHLIGHT section (Camellia-Collection.jpg)
+	It's camellia season (h2)
+	Discover Descanso's winter beauties (h3)
+	Learn more (p styled as a button)(links to #)
+	
+CARD section
+	
+	What's happening? (h2)
+	See our full calendar (span) (links to https://www.descansogardens.org/events/)
+
+	Card Column Section
+	
+	Card Columns:
+
+	Member-Appreciation-Week.jpg (img)
+	Member Appreciation Week (h4)
+	Monday-Sunday (p)
+	5-7pm (p)
+	March 11-17 (p)
+
+	Member-Appreciation-Night.jpg (img)
+	Member Appreciation Night (h4)
+	Friday (p)
+	5-7pm (p)
+	March 15 (p)
+
+	Cultivate-Living-Plant-Museum.jpg (img)
+	Cultivate: A Living Plant Museum (h4)
+	Friday (p)
+	4:30-7pm (p)
+	March 22 (p)
+
+TESTIMONIAL section
+	"Descanso has inspired me since I was a child, decades ago. Now it has inspired my son to celebrate and wonder at nature." (h2)
+	Descanso Guest (p)
+	
+FOOTER section
+	© 2024 Descanso Gardens (p)

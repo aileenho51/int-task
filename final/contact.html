@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact | Aileen Ho</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    .left {
+        float: left;
+        width: 46%; 
+        height: auto;
+    }
+
+    .left img {
+        width: 100%;
+        height: auto;
+    }
+
+    .right {
+        float: left;
+        width: 46%; 
+        padding: 20px;
+    }
+</style>
+</head>
+<body>
+<header>
+  <div class="navigation">
+    <a href="home.html">Home</a>
+    <a href="life.html">Life</a>
+    <a href="professional.html">Professional</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<main class="wrapper">
+    <div class="left">
+        <img src="turtles.png" alt="Aileen in Hawaii">
+    </div>
+
+    <div class="right">
+        <h1>Contact Me</h1>
+        <p>Thanks for visiting my Website! For additional questions or comments, feel free to reach out via my contact form.</p>
+        <form action="confirmation.html" method="post"> 
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="First Last" required><br><br>
+
+            <label for="discovery">How did you come across my website?</label><br> 
+            <select id="discovery" name="discovery" required> 
+                <option value="">Select an option</option> 
+                <option value="social_media">Social Media</option> 
+                <option value="google_search">Google Search</option> 
+                <option value="word_of_mouth">Word of Mouth</option> 
+                <option value="personal">You Know Me Personally</option> 
+            </select><br><br> 
+
+            <label for="message">Message:</label><br> 
+            <textarea id="message" name="message" placeholder="Your message" required></textarea><br><br> 
+
+            <input type="checkbox" id="agree" name="agree" required> 
+            <label for="agree">I agree to the terms and conditions</label><br><br> 
+
+            <input type="submit" value="Submit"> 
+            <input type="reset" value="Clear"> 
+        </form>
+    </div>
+</main>
+
+<footer>
+    <p>Copyright &copy; 2024 Aileen Ho</p>
+</footer>
+</body>
+</html>

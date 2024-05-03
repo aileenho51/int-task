@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Life | Aileen Ho</title>
+<link rel="stylesheet" href="styles.css">
+<link href="lightbox/css/lightbox.css" rel="stylesheet">
+<style>
+    .wrapper {
+        margin: 20px;
+    }
+
+    .row {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        padding: 40px 0px 0px 0px;
+    }
+
+    .thumbnails {
+        position: relative;
+        width: 200px;
+        margin: 10px;
+        display: inline-block; 
+    }
+
+    .thumbnails:hover .covertext {
+        visibility: visible;
+        }
+
+    .cover {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        opacity: 0.9;
+        }
+
+    .covertext {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        display: flex;
+        justify-content: center;
+        visibility: hidden;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+<header>
+  <div class="navigation">
+    <a href="home.html">Home</a>
+    <a href="life.html">Life</a>
+    <a href="professional.html">Professional</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<main class="wrapper">
+    <div class="websitedescription">
+        <h1>Life at USC</h1>
+        <u>Explore My College Highlights</u>
+        <p>Pictures that showcase some of my favorite moments of my life at USC so far.</p>
+    </div>
+
+    <div class="row">
+        <div class="thumbnails"> 
+            <a href="lifeimg/1.jpg" data-lightbox="Life" data-title="Freshman Year"> 
+                <img class="cover" src="lifeimg/1.jpg" alt="Freshman Year"> 
+                <div class="covertext">Yr 1 w/ friends</div>
+            </a>
+        </div>
+
+        <div class="thumbnails">
+            <a href="lifeimg/2.jpg" data-lightbox="Life" data-title="Football Game">
+                <img class="cover" src="lifeimg/2.jpg" alt="Football Game">
+                <div class="covertext">First football game</div>
+            </a>
+        </div>
+
+        <div class="thumbnails">
+            <a href="lifeimg/3.jpg" data-lightbox="Life" data-title="Post-Exam">
+                <img class="cover" src="lifeimg/3.jpg" alt="Post-Exam">
+                <div class="covertext">Ditching my pre-med friends for another major (they forgave me) </div>
+            </a>
+        </div>
+
+        <div class="thumbnails">
+            <a href="lifeimg/4.jpg" data-lightbox="Life" data-title="Sophomore Year">
+                <img class="cover" src="lifeimg/4.jpg" alt="Sophomore Year">
+                <div class="covertext">Year 2 at Century Apts</div>
+            </a>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="thumbnails">
+            <a href="lifeimg/5.jpg" data-lightbox="Life" data-title="Hawaii Spring Break">
+                <img class="cover" src="lifeimg/5.jpg" alt="Hawaii Spring Break">
+                <div class="covertext">Spring break in Hawaii</div>
+            </a>
+        </div>
+
+        <div class="thumbnails">
+            <a href="lifeimg/6.jpg" data-lightbox="Life" data-title="Arizona">
+                <img class="cover" src="lifeimg/6.jpg" alt="Arizona">
+                <div class="covertext">In AZ for PwC</div>
+            </a>
+        </div>
+
+        <div class="thumbnails">
+            <a href="lifeimg/7.jpg" data-lightbox="Life" data-title="Junior Year">
+                <img class="cover" src="lifeimg/7.jpg" alt="Junior Year">
+                <div class="covertext">Year 3 at Century (my roommate has a husky)!</div>
+            </a>
+        </div>
+
+        <div class="thumbnails">
+            <a href="lifeimg/8.jpg" data-lightbox="Life" data-title="NYC Spring Break">
+                <img class="cover" src="lifeimg/8.jpg" alt="NYC Spring Break">
+                <div class="covertext">Spring break in NYC</div>
+            </a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>Copyright &copy; 2024 Aileen Ho</p>
+</footer>
+<script src="lightbox/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
